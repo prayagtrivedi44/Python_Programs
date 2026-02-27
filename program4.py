@@ -1,5 +1,7 @@
-num=5
 i=1
-while i<=10:
-    print(num,"*",i,"=",num*i)
-    i+=1
+while i<21:
+    if i%2==0:
+        i+=1
+        continue
+    print(i)
+    i=i+1
