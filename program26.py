@@ -1,3 +1,6 @@
-t=(1,2,3,5,4)
-sort=t(sorted(t))
-print(sort)
+num=int(input("enter :"))
+count=0
+while num>0:
+     num=num//10
+    # count=count+1
+print(count)
