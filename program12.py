@@ -1,12 +1,5 @@
-import random
-
-num=int(input("enter :"))
-guess=random.randint(1,10)
-print("random number",guess)
-
-if num==guess:
-        print("match")
-    
-else:
-     print("not")
-    
+l=(1,2,3,4)
+rev=[]
+for i in l:
+    rev=[i]+rev
+print(rev)

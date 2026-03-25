@@ -1,8 +1,8 @@
-n=int(input("enter fibonnic ser :"))
-a=0
-b=1
-for i in range(n):
-    c=a+b
-    print(c)
-    a=b
-    b=c
+try:
+    a=int(input("enter :"))
+    b=int(input("enter :"))
+    print("divide",a/b)
+except:
+    print("error")
+    print("compl")
+

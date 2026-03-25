@@ -1,3 +1,9 @@
-l=[1,2,3,4]
-print(max(l))
-print(min(l))
+a=int(input("enter first"))
+b=int(input("enter sec"))
+try:
+    print("dev=",a/b)
+except ZeroDivisionError as e:
+    print("can not divide",e)
+finally: 
+  print("it is always")
+ 
